@@ -15,7 +15,7 @@ class YahooRestApiApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(YahooRestApiApplicationTests.class);
 	@Test
-	public contextLoads() {
+	 void contextLoads() {
 
 		logger.info("Test Case Executing");
 		logger.info("Running second statement");
