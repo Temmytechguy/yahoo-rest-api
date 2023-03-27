@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:16-ea-2-jdk-slim
 EXPOSE 8080
 ADD target/yahoo-rest-api.jar yahoo-rest-api.jar
 ENTRYPOINT ["java", "-jar", "yahoo-rest-api.jar"]
