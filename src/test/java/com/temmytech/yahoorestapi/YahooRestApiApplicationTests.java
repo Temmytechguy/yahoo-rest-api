@@ -17,7 +17,7 @@ class YahooRestApiApplicationTests {
 	@Test
 	 void contextLoads() {
 
-		loggers.info("Test Case Executing");
+		logger.info("Test Case Executing");
 		assertEquals(true,true);
 		logger.info("Running second statement");
 	}
